@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="./imagens/Sonic-Logo.png" type="image/x-icon">
+
+    <title>Sonic Slider</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="./imagens/Sonic-the-Hedgehog-English-logo.png" class="img1">
+      
+    </header>
+    <main class="sonic-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="personagens">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes informacoes-sonic">
+            <h2 class="nome">Sonic</h2>
+            <p class="vida vida-sonic">HP 800</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="./imagens/tumblr_qpf9n9BBZ41x3217do1_1280.png"
+              class="imagem-personagens"
+            />
+          </div>
+          <div class="descricao descricao-sonic">
+            <h3 class="titulo titulo-sonic">Descripition</h3>
+            <p class="texto">
+                Sonic é um ouriço azul, capaz de correr em velocidade imensurável e se enrolar como uma bola, primariamente para atacar inimigos.
+              
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <div class="informacoes informacoes-tails">
+            <h2 class="nome">Tails</h2>
+            <p class="vida vida-tails">HP 300</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="./imagens/Tails-PNG-Photo.png"
+              class="imagem-personagens"
+            />
+          </div>
+          <div class="descricao descricao-tails">
+            <h3 class="titulo titulo-tails">Descripition</h3>
+                <p  class="texto">Tails é vantajoso por suas duas grandes caudas que podem girar juntas. Pode girá-las para voar ou pairar como um helicóptero. Porém, ele se cansa se usá-las para se manter voando por muito tempo.</p>
+          </div>
+        </li>
+        <li class="cartao fundo-3">
+          <div class="informacoes informacoes-knuckles">
+            <h2 class="nome">Knuckles</h2>
+            <p class="vida vida-knuckles">HP 1200</p>
+          </div>
+          <div class="container-imagem">
+            <img
+              src="./imagens/Knuckles-The-Echidna-PNG-Photos.png"
+              class="imagem-personagens"
+            />
+          </div>
+          <div class="descricao descricao-knuckles" >
+            <h3 class="titulo titulo-knuckles">Descripition</h3>
+                <p  class="texto"> knuckles tem Super força, velocidade, agilidade, resistência, voo, manipulação de espaço, pode sobreviver no espaço.</p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
